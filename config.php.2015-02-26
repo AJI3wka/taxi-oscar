@@ -1,0 +1,90 @@
+<?php
+
+$catalog = array(
+	'chair-hit' => array(
+		'title'     => 'Стул «Хит»',
+		'image'     => 'chair-hit.jpg',
+		'price'     => '1 450',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-ruslan' => array(
+		'title'     => 'Стул «Руслан»',
+		'image'     => 'chair-ruslan.jpg',
+		'price'     => '1 390',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-caesar' => array(
+		'title'     => 'Стул «Кардинал»',
+		'image'     => 'chair-caesar.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+
+	'chair-savannah' => array(
+		'title'     => 'Стул «Саванна»',
+		'image'     => 'chair-savannah.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-orkhidyeya' => array(
+		'title'     => 'Стул «Орхидея»',
+		'image'     => 'chair-orkhidyeya.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-padishah' => array(
+		'title'     => 'Стул «Падишах»',
+		'image'     => 'chair-padishah.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+
+	'chair-manhetten' => array(
+		'title'     => 'Стул «Манхеттен»',
+		'image'     => 'chair-manhetten.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-louis' => array(
+		'title'     => 'Стул «Луи»',
+		'image'     => 'chair-louis.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+	'chair-constantine' => array(
+		'title'     => 'Стул «Константин»',
+		'image'     => 'chair-constantine.jpg',
+		'price'     => '2 050',
+		'price-old' => '3 000',
+		'rent'      => '150',
+	),
+
+	'cover-tea-rose' => array(
+		'title'     => 'Чехол «Чайная Роза»',
+		'image'     => 'cover-tea-rose.jpg',
+		'mater'     => 'шелк, сатин',
+		'price'     => '650',
+	),
+	'cover-white-lily' => array(
+		'title'     => 'Чехол «Белая Лилия»',
+		'image'     => 'cover-white-lily.jpg',
+		'mater'     => 'шелк',
+		'price'     => '600',
+	),
+	'cover-shine' => array(
+		'title'     => 'Чехол «Блеск»',
+		'image'     => 'cover-shine.jpg',
+		'mater'     => 'х/б',
+		'price'     => '650',
+	),
+);
+
+?>
