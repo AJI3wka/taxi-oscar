@@ -883,7 +883,7 @@ function show_catalog_item($key)
 						<li>Примеры объявлений для поиска водителей и общий принцип подбора персонала</li>
 					</ul>
 					<p class="price">100&nbsp;000 руб.</p>
-					<a href="#" class="btn-styled small">Открыть свой бизнес</a>
+					<a href="#franshizaform_1" class="btn-styled small js-fancybox-form">Открыть свой бизнес</a>
 				</div>
 				<div class="tarif tarif-best">
 					<h2>Тариф «Продвинутый»</h2>
@@ -898,7 +898,7 @@ function show_catalog_item($key)
 						<li>Дополнительные способы заработка + БОНУСЫ и ПОДАРКИ!</li>
 					</ul>
 					<p class="price">250&nbsp;000 руб.</p>
-					<a href="" class="btn-styled small">Открыть свой бизнес</a>
+					<a href="#franshizaform_2" class="btn-styled small js-fancybox-form">Открыть свой бизнес</a>
 				</div>
 				<div class="tarif">
 					<h2>Тариф «Всё включено»</h2>
@@ -908,7 +908,7 @@ function show_catalog_item($key)
 						<li>3 личных кабинета с водителями в нем</li>
 					</ul>
 					<p class="price">1&nbsp;000&nbsp;000 руб.</p>
-					<a href="" class="btn-styled small">Получить бизнес</a>
+					<a href="#franshizaform_3" class="btn-styled small js-fancybox-form">Получить бизнес</a>
 				</div>
 			</div>	
 		</div>
@@ -1161,6 +1161,96 @@ function show_catalog_item($key)
 	</form> <!--.b-sendform-->
 </div>
 
+<div id="franshizaform_1" class="hidden">
+	<form action="#" method="post" class="b-sendform js-sendform">
+		<p class="b-sendform-head">Заявка на приобритение франшизы<br>Тариф "Удобный"</p>
+		<div class="b-sendform-body">
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваше имя:</span>
+					<input type="text" class="i-text" name="name" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш <span>телефон</span>:</span>
+					<input type="tel" class="i-text" name="phone" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш e-mail:</span>
+					<input type="text" class="i-text" name="email" />
+				</label>
+			</div> <!--.row-->
+			<div class="buttons">
+				<input type="submit" class="btn-styled" value="Отправить" />
+				<input type="hidden" name="subject" value='Заявка на приобритение франшизы. Тариф "Удобный"' />
+			</div> <!--.buttons-->
+		</div> <!--.b-sendform-body-->
+	</form> <!--.b-sendform-->
+</div>
+
+
+<div id="franshizaform_2" class="hidden">
+	<form action="#" method="post" class="b-sendform js-sendform">
+		<p class="b-sendform-head">Заявка на приобритение франшизы<br>Тариф "Продвинутый"</p>
+		<div class="b-sendform-body">
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваше имя:</span>
+					<input type="text" class="i-text" name="name" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш <span>телефон</span>:</span>
+					<input type="tel" class="i-text" name="phone" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш e-mail:</span>
+					<input type="text" class="i-text" name="email" />
+				</label>
+			</div> <!--.row-->
+			<div class="buttons">
+				<input type="submit" class="btn-styled" value="Отправить" />
+				<input type="hidden" name="subject" value='Заявка на приобритение франшизы. Тариф "Продвинутый"' />
+			</div> <!--.buttons-->
+		</div> <!--.b-sendform-body-->
+	</form> <!--.b-sendform-->
+</div>
+
+<div id="franshizaform_3" class="hidden">
+	<form action="#" method="post" class="b-sendform js-sendform">
+		<p class="b-sendform-head">Заявка на приобритение франшизы<br>Тариф "Всё включено"</p>
+		<div class="b-sendform-body">
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваше имя:</span>
+					<input type="text" class="i-text" name="name" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш <span>телефон</span>:</span>
+					<input type="tel" class="i-text" name="phone" />
+				</label>
+			</div> <!--.row-->
+			<div class="row">
+				<label>
+					<span class="label">Введите Ваш e-mail:</span>
+					<input type="text" class="i-text" name="email" />
+				</label>
+			</div> <!--.row-->
+			<div class="buttons">
+				<input type="submit" class="btn-styled" value="Отправить" />
+				<input type="hidden" name="subject" value='Заявка на приобритение франшизы. Тариф "Всё включено"' />
+			</div> <!--.buttons-->
+		</div> <!--.b-sendform-body-->
+	</form> <!--.b-sendform-->
+</div>
 <div id="sendresult" class="hidden">
 	<div class="popup-win">
 		<p class="title">Спасибо!</p>

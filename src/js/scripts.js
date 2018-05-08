@@ -199,11 +199,13 @@ jQuery(document).ready(function($){
 			markErrorField($phone, 'Укажите номер телефона');
 			errorFound = true;
 		}
+
+
 		var $email = $(this).find('input[name=email]');
-		if ($email.length)
+		if ($email.length>0)
 		{
 			var email = $.trim( $email.val() );
-			if (email != '' && email.indexOf('@') == -1)
+			if (email != '' && email.indexOf('@') == -1 || email == '')
 			{
 				markErrorField($email, 'Укажите адрес электронной почты');
 				errorFound = true;
@@ -221,7 +223,11 @@ jQuery(document).ready(function($){
 				}
 			});
 
-			yaCounter25847597.reachGoal(yaGoalTitle);
+			if (typeof yaCounter25847597 != 'undefined') {
+
+				yaCounter25847597.reachGoal(yaGoalTitle);
+
+			}
 
 			$(this).find('input[type=text],input[type=tel],input[type=email],textarea').val('');
 
